@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Ale\\\\Documents\\\\barberbook-app\" -Force)",
+      "Bash(Select-Object Name, PSIsContainer)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --no-git --yes)",
+      "Read(//c/Users/Ale/Documents/**)",
+      "Bash(mkdir -p barberbook-temp)",
+      "Bash(mv \"barberbook-app/ARQUITECTURA.md\" barberbook-temp/)",
+      "Bash(mv \"barberbook-app/REGLAS.md\" barberbook-temp/)"
+    ]
+  }
+}
